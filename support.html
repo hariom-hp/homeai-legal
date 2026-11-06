@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Support & Contact - HomeAI</title>
+    <style>
+        :root {
+            --primary: #0071e3;
+            --text: #1d1d1f;
+            --secondary: #86868b;
+            --bg: #f5f5f7;
+            --card-bg: #ffffff;
+            --border: #d2d2d7;
+        }
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --primary: #2997ff;
+                --text: #f5f5f7;
+                --secondary: #a1a1a6;
+                --bg: #000000;
+                --card-bg: #1c1c1e;
+                --border: #38383a;
+            }
+        }
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background-color: var(--bg);
+            color: var(--text);
+            line-height: 1.6;
+            padding: 40px 20px;
+        }
+        .container {
+            max-width: 820px;
+            margin: 0 auto;
+            background: var(--card-bg);
+            padding: 48px;
+            border-radius: 20px;
+            box-shadow: 0 4px 24px rgba(0,0,0,0.06);
+            border: 1px solid var(--border);
+            text-align: center;
+        }
+        .app-badge {
+            display: inline-block;
+            background: rgba(0, 113, 227, 0.1);
+            color: var(--primary);
+            padding: 4px 12px;
+            border-radius: 12px;
+            font-size: 13px;
+            font-weight: 600;
+            margin-bottom: 12px;
+        }
+        h1 { font-size: 32px; font-weight: 700; letter-spacing: -0.5px; margin-bottom: 12px; }
+        p { margin-bottom: 24px; font-size: 16px; color: var(--secondary); }
+        .support-card {
+            background: rgba(0, 113, 227, 0.04);
+            border: 1px solid var(--border);
+            border-radius: 16px;
+            padding: 32px;
+            margin: 32px auto;
+            max-width: 500px;
+        }
+        .support-card h2 {
+            font-size: 20px;
+            margin-bottom: 12px;
+            color: var(--text);
+        }
+        .btn-email {
+            display: inline-block;
+            background: var(--primary);
+            color: #ffffff;
+            font-weight: 600;
+            padding: 14px 28px;
+            border-radius: 980px;
+            text-decoration: none;
+            margin-top: 16px;
+            transition: opacity 0.2s;
+        }
+        .btn-email:hover {
+            opacity: 0.9;
+        }
+        .faq {
+            text-align: left;
+            margin-top: 40px;
+        }
+        .faq h3 {
+            font-size: 18px;
+            margin-top: 24px;
+            margin-bottom: 8px;
+            color: var(--text);
+        }
+        .faq p {
+            font-size: 14px;
+            color: var(--secondary);
+            margin-bottom: 12px;
+        }
+        footer {
+            margin-top: 48px;
+            padding-top: 24px;
+            border-top: 1px solid var(--border);
+            text-align: center;
+            font-size: 13px;
+            color: var(--secondary);
+        }
+        .nav-links {
+            display: flex;
+            gap: 16px;
+            justify-content: center;
+            margin-bottom: 16px;
+        }
+        a { color: var(--primary); text-decoration: none; }
+        a:hover { text-decoration: underline; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="app-badge">HomeAI • Customer Support</div>
+        <h1>How Can We Help You?</h1>
+        <p>We are dedicated to providing the best AI architectural redesign experience.</p>
+
+        <div class="support-card">
+            <h2>Direct Email Support</h2>
+            <p>Have an inquiry, feedback, billing question, or technical issue? Reach out to our dedicated support team directly.</p>
+            <a href="mailto:neosdevshelp@gmail.com" class="btn-email">Contact neosdevshelp@gmail.com</a>
+        </div>
+
+        <div class="faq">
+            <h2>Frequently Asked Questions</h2>
+            
+            <h3>How do credits and subscriptions work?</h3>
+            <p>HomeAI provides daily free generations. For unlimited or higher-volume generations, you can purchase credit packs or activate a Pro subscription directly via Apple In-App Purchases.</p>
+
+            <h3>How do I restore my purchases?</h3>
+            <p>Open the app, tap the Pro / Crown icon or navigate to Profile, and tap <strong>Restore Purchases</strong>. Your active entitlements will synchronize automatically with Apple's servers.</p>
+
+            <h3>How do I request account and data deletion?</h3>
+            <p>Open HomeAI &gt; Settings &gt; tap <strong>Delete Account & Data</strong>. All local designs, cached files, and credentials are permanently purged immediately.</p>
+        </div>
+
+        <footer>
+            <div class="nav-links">
+                <a href="index.html">Overview</a> •
+                <a href="privacy-policy.html">Privacy Policy</a> •
+                <a href="terms-of-service.html">Terms of Service</a> •
+                <a href="support.html">Support</a>
+            </div>
+            <p>&copy; 2026 HomeAI. All rights reserved.</p>
+        </footer>
+    </div>
+</body>
+</html>
