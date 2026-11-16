@@ -3,135 +3,136 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Terms of Service - HomeAI</title>
+    <title>Terms of Service - Reno</title>
     <style>
         :root {
-            --primary: #0071e3;
-            --text: #1d1d1f;
-            --secondary: #86868b;
-            --bg: #f5f5f7;
-            --card-bg: #ffffff;
-            --border: #d2d2d7;
+            --bg: #0f1115;
+            --card-bg: #181b21;
+            --text-main: #f3f4f6;
+            --text-muted: #9ca3af;
+            --accent: #2563eb;
+            --border: #262b35;
         }
-        @media (prefers-color-scheme: dark) {
+        @media (prefers-color-scheme: light) {
             :root {
-                --primary: #2997ff;
-                --text: #f5f5f7;
-                --secondary: #a1a1a6;
-                --bg: #000000;
-                --card-bg: #1c1c1e;
-                --border: #38383a;
+                --bg: #f9fafb;
+                --card-bg: #ffffff;
+                --text-main: #111827;
+                --text-muted: #6b7280;
+                --accent: #2563eb;
+                --border: #e5e7eb;
             }
         }
-        * { box-sizing: border-box; margin: 0; padding: 0; }
         body {
             font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
             background-color: var(--bg);
-            color: var(--text);
+            color: var(--text-main);
+            margin: 0;
+            padding: 32px 16px 64px 16px;
             line-height: 1.6;
-            padding: 40px 20px;
         }
         .container {
-            max-width: 820px;
+            max-width: 760px;
             margin: 0 auto;
-            background: var(--card-bg);
-            padding: 48px;
-            border-radius: 20px;
-            box-shadow: 0 4px 24px rgba(0,0,0,0.06);
-            border: 1px solid var(--border);
         }
         header {
-            border-bottom: 1px solid var(--border);
-            padding-bottom: 24px;
             margin-bottom: 32px;
+            border-bottom: 1px solid var(--border);
+            padding-bottom: 20px;
         }
-        .app-badge {
-            display: inline-block;
-            background: rgba(0, 113, 227, 0.1);
-            color: var(--primary);
-            padding: 4px 12px;
-            border-radius: 12px;
-            font-size: 13px;
+        h1 {
+            font-size: 32px;
+            font-weight: 700;
+            letter-spacing: -0.5px;
+            margin: 0 0 8px 0;
+        }
+        .updated {
+            color: var(--accent);
+            font-size: 14px;
             font-weight: 600;
-            margin-bottom: 12px;
         }
-        h1 { font-size: 32px; font-weight: 700; letter-spacing: -0.5px; margin-bottom: 8px; }
-        .meta { color: var(--secondary); font-size: 14px; }
-        h2 { font-size: 20px; font-weight: 600; margin-top: 32px; margin-bottom: 12px; color: var(--text); }
-        p { margin-bottom: 16px; font-size: 15px; }
-        ul { margin-bottom: 16px; padding-left: 24px; font-size: 15px; }
-        li { margin-bottom: 8px; }
-        a { color: var(--primary); text-decoration: none; }
-        a:hover { text-decoration: underline; }
+        h2 {
+            font-size: 20px;
+            font-weight: 600;
+            margin-top: 32px;
+            margin-bottom: 12px;
+            color: var(--text-main);
+        }
+        p, li {
+            color: var(--text-muted);
+            font-size: 15px;
+        }
+        ul {
+            padding-left: 20px;
+            margin: 8px 0;
+        }
+        li {
+            margin-bottom: 6px;
+        }
+        a {
+            color: var(--accent);
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .highlight-box {
+            background-color: var(--card-bg);
+            border: 1px solid var(--border);
+            border-radius: 14px;
+            padding: 16px 20px;
+            margin-bottom: 28px;
+            font-size: 15px;
+        }
         footer {
             margin-top: 48px;
             padding-top: 24px;
             border-top: 1px solid var(--border);
-            text-align: center;
             font-size: 13px;
-            color: var(--secondary);
-        }
-        .nav-links {
-            display: flex;
-            gap: 16px;
-            justify-content: center;
-            margin-bottom: 16px;
+            color: var(--text-muted);
         }
     </style>
 </head>
 <body>
     <div class="container">
         <header>
-            <div class="app-badge">HomeAI • Legal & Terms</div>
-            <h1>Terms of Service (EULA)</h1>
-            <div class="meta">Effective Date: November 7, 2026 | Last Updated: November 7, 2026</div>
+            <h1>Terms of Service</h1>
+            <div class="updated">Reno • Last Updated: November 2026</div>
         </header>
 
-        <section>
-            <p>Please read these Terms of Service ("Terms") carefully before using the <strong>HomeAI</strong> mobile application (the "Service") operated by HomeAI ("we", "us", or "our").</p>
+        <h2>1. Acceptance of Terms</h2>
+        <p>By downloading, installing, or using the Reno mobile application ("App"), you agree to be bound by these Terms of Service. If you do not agree, do not use the application.</p>
 
-            <p>By downloading, installing, or using HomeAI, you agree to be bound by these Terms and the Standard Apple End User License Agreement (EULA). If you disagree with any part of these Terms, you may not access or use the Service.</p>
+        <h2>2. Description of Service</h2>
+        <p>Reno provides neural network-assisted architectural, interior, garden, and 3D floor plan styling conceptualization tools. Visualizations are provided for design inspiration, planning, and concept development.</p>
 
-            <h2>1. Use of the Service</h2>
-            <p>HomeAI provides users with generative artificial intelligence tools to visualize interior design, architectural exterior remodeling, garden landscapes, and 2D floor plans. You are granted a personal, non-transferable, revocable license to use the app in accordance with Apple Media Services Terms and Conditions.</p>
-
-            <h2>2. User Content & Image Rights</h2>
+        <h2>3. Auto-Renewable Subscriptions (Apple Guideline 3.1.2)</h2>
+        <div class="highlight-box">
             <ul>
-                <li><strong>Your Content:</strong> You retain all ownership rights to any photos you upload to the app.</li>
-                <li><strong>Generated Designs:</strong> You are free to export, save, share, and use the designs generated for personal or commercial architectural planning.</li>
-                <li><strong>Acceptable Use:</strong> You agree not to upload any illegal, defamatory, obscene, or infringing material. We reserve the right to refuse service or deny image processing requests that violate safety standards.</li>
+                <li><strong>Plans:</strong> Weekly and Monthly. The price in your local currency is shown in the app before you subscribe.</li>
+                <li><strong>Payment:</strong> Payment is charged to your Apple ID account at confirmation of purchase.</li>
+                <li><strong>Auto-Renewal:</strong> Subscriptions renew automatically unless cancelled at least 24 hours prior to the end of the current period.</li>
+                <li><strong>Manage / Cancel:</strong> You can manage and cancel your subscriptions anytime in your device's <em>Settings &gt; Apple ID &gt; Subscriptions</em>.</li>
+                <li><strong>Restore:</strong> You may restore your purchases anytime within the app via the "Restore Purchases" button.</li>
             </ul>
+        </div>
 
-            <h2>3. Subscriptions & In-App Purchases</h2>
-            <ul>
-                <li><strong>StoreKit 2 Purchases:</strong> Payment will be charged to your Apple ID account at confirmation of purchase.</li>
-                <li><strong>Auto-Renewal:</strong> Subscriptions automatically renew unless auto-renew is turned off at least 24 hours before the end of the current billing period.</li>
-                <li><strong>Managing Subscriptions:</strong> You can manage and cancel your subscriptions at any time by going to your App Store Account Settings after purchase.</li>
-                <li><strong>Refunds:</strong> All refund requests are governed by and processed through Apple Support in accordance with Apple's standard refund policies.</li>
-            </ul>
+        <h2>4. User Content & Ownership</h2>
+        <p>You retain full ownership of all photographs and sketches uploaded. You grant Reno a non-exclusive license strictly to transmit, process, and render designs requested by you.</p>
 
-            <h2>4. Disclaimer of Architectural Warranties</h2>
-            <p>HomeAI renders are generated by artificial intelligence for conceptual visualization and inspirational purposes only. They are not certified architectural blueprints or structural engineering calculations. Always consult licensed contractors and architects before undertaking construction or structural alterations.</p>
+        <h2>5. Conceptual Notice</h2>
+        <p>AI-generated renderings are conceptual artistic designs. They are not certified structural engineering schematics. Always consult licensed contractors before undertaking demolition or construction.</p>
 
-            <h2>5. Limitation of Liability</h2>
-            <p>To the maximum extent permitted by applicable law, HomeAI and its creators shall not be liable for any indirect, incidental, special, consequential, or punitive damages resulting from your use of or inability to use the Service.</p>
+        <h2>6. Standard Apple EULA</h2>
+        <p>In addition to these Terms, use of the iOS application is subject to Apple's standard Licensed Application End User License Agreement: <a href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/" target="_blank">Apple Standard EULA</a>.</p>
 
-            <h2>6. Contact & Support</h2>
-            <p>If you have questions about these Terms, please reach out to our support team:</p>
-            <ul>
-                <li><strong>Support Email:</strong> <a href="mailto:neosdevshelp@gmail.com">neosdevshelp@gmail.com</a></li>
-            </ul>
-        </section>
+        <h2>7. Contact</h2>
+        <p>For questions or support, contact <a href="mailto:neosdevshelp@gmail.com">neosdevshelp@gmail.com</a>.</p>
 
         <footer>
-            <div class="nav-links">
-                <a href="index.html">Overview</a> •
-                <a href="privacy-policy.html">Privacy Policy</a> •
-                <a href="terms-of-service.html">Terms of Service</a> •
-                <a href="support.html">Support</a>
-            </div>
-            <p>&copy; 2026 HomeAI. All rights reserved.</p>
+            © 2026 Reno. All rights reserved.
         </footer>
     </div>
 </body>
 </html>
+

@@ -1,6 +1,6 @@
-# HomeAI — Privacy Policy, Terms of Service & Support
+# Reno — Privacy Policy, Terms of Service & Support
 
-**Application:** HomeAI (iOS)  
+**Application:** Reno (iOS)  
 **Effective Date:** November 7, 2026  
 **Last Updated:** November 7, 2026  
 **Official Support Email:** [neosdevshelp@gmail.com](mailto:neosdevshelp@gmail.com)
@@ -9,7 +9,7 @@
 
 ## 🔒 1. Privacy Policy
 
-HomeAI is built with a **strict privacy-first architecture** in full compliance with Apple App Store Review Guidelines (including Guidelines 5.1.1 and 5.1.1(v)), the General Data Protection Regulation (GDPR), and the California Consumer Privacy Act (CCPA).
+Reno is built with a **strict privacy-first architecture** in full compliance with Apple App Store Review Guidelines (including Guidelines 5.1.1 and 5.1.1(v)), the General Data Protection Regulation (GDPR), and the California Consumer Privacy Act (CCPA).
 
 ### A. Data We Do NOT Collect
 * **No Personal Identifiers:** We do not ask for or collect names, email addresses, phone numbers, or physical addresses.
@@ -34,7 +34,7 @@ HomeAI is built with a **strict privacy-first architecture** in full compliance 
 
 ## 📜 2. Terms of Service & EULA
 
-By using HomeAI, you agree to these Terms and the Standard Apple End User License Agreement (EULA).
+By using Reno, you agree to these Terms and the Standard Apple End User License Agreement (EULA).
 
 ### A. Acceptable Use & Content Ownership
 * You retain full ownership of the photos you upload and the redesigns generated for your personal use.
@@ -58,4 +58,4 @@ If you have questions, feedback, or need assistance, contact our dedicated suppo
 
 ---
 
-&copy; 2026 HomeAI. All rights reserved.
+&copy; 2026 Reno. All rights reserved.
